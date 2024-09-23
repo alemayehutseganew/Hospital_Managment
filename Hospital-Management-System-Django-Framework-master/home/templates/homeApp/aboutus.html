@@ -1,0 +1,73 @@
+{% extends "homeApp/base.html" %}
+{% block scripts %}
+{% load static %}
+
+<script>
+ 
+</script>
+{% endblock scripts %}
+
+{% block navbar %}
+<section id="navbar">
+
+    {%include 'homeApp/navbar.html'%}
+ 
+</section>
+
+{% endblock navbar %}
+
+
+
+{% block content %}
+  
+
+<section id="aboutus">
+
+<div class="container m-5">
+    <div class="row col-12">
+
+        <div class="col-xl-6 col-12"><img src="{% static 'homeApp\images\doctoraboutus.jpg' %} " alt="doctorabout" style="
+            max-width: 100%;
+            max-height:100%;
+        "></div>
+
+        <div class="col-xl-6 col-12">
+            <h3>About Us</h3>
+            <p><h4><b>Tebta-Health(ጠብታ ጤና) </b><h4>is the pioneer project funded by private institution , 
+                designed to provide residents of Woldia with a convenient centralized healthcare system. As the system is ID based,
+                 citizens will have unique identification and unified health care record.</p>
+            <p>
+                 Society that can afford healthcare cost; that is healthy, active and vibrant to fight against lifestyle and modern diseases; 
+                 a state actively involving, interfering & regulating the unethical practices and providing a pollution free environment,
+                 taking care of the old and weak, thereby establishing a proper healthcare system for the people of the state
+            </p>
+            <h1>ጤና ለሁሉም</h1> Woldia,Ethiopia
+        </div>
+
+    </div>
+</div>
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+     
+{% endblock content %}
+
+
+
+
+
+
